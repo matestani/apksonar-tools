@@ -7,7 +7,6 @@
  *   node apksonar.mjs status <scan-id>
  *   node apksonar.mjs report <report-token>
  *
- * URL по умолчанию https://apksonar.com, для дев-стенда APKSONAR_URL=http://192.168.15.23:9480
  * Флаги: --wait (ждать завершения), --json (сырой JSON вместо сводки), --out <file>.
  */
 import { createHash, createHmac, randomBytes } from "node:crypto";

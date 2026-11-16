@@ -2,7 +2,7 @@
 
 Tools for [APKSonar](https://apksonar.com), the online security scanner for Android packages. This repository holds the terminal side of the service: the CLI, the MCP server for AI agents, and future plugins (browser, IDE, marketplaces).
 
-[Website](https://apksonar.com) · [Live demo scans](https://apksonar.com/demos) · [REST API](https://apksonar.com/api) · [Pricing](https://apksonar.com/pricing)
+[Website](https://apksonar.com) · [Live demo scans](https://apksonar.com/en/demos) · [REST API](https://apksonar.com/en/api) · [Plans](https://apksonar.com/en#pricing)
 
 Both tools ship as one zero-dependency npm package (Node 18+):
 
@@ -17,7 +17,7 @@ The scanner itself runs in the APKSonar cloud: upload a package, get a report wi
 
 Both tools authenticate with a key pair created in your dashboard: `key_id` plus `secret`. The secret is shown once at creation. Every request is signed with HMAC-SHA256 (time window ±300 s, one-time nonce); the secret never travels over the network.
 
-Create keys at **apksonar.com/keys** (a free account is enough; scans count toward your plan quota).
+Create keys in your APKSonar account ([sign in](https://apksonar.com/en), then open **API keys**). A free account is enough; scans count toward your plan quota.
 
 ```bash
 export APKSONAR_URL=https://apksonar.com
