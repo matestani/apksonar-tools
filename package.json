@@ -1,0 +1,31 @@
+{
+  "name": "apksonar",
+  "version": "0.1.0",
+  "description": "APKSonar CLI and MCP server — scan Android packages (APK/AAB/XAPK/APKS/DEX/SO) from terminal, CI and AI agents",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "apksonar": "bin/apksonar.mjs",
+    "apksonar-mcp": "bin/mcp-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matestani/apksonar-tools.git"
+  },
+  "keywords": [
+    "android",
+    "apk",
+    "security",
+    "scanner",
+    "mcp",
+    "cli",
+    "ci"
+  ]
+}
