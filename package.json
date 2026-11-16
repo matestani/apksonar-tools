@@ -1,6 +1,6 @@
 {
   "name": "apksonar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CLI and MCP server for APKSonar, the online security scanner for Android packages (APK, AAB, XAPK, APKS, DEX, SO)",
   "license": "MIT",
   "type": "module",
