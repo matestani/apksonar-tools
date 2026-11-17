@@ -2,9 +2,9 @@
 
 Tools for [APKSonar](https://apksonar.com), the online security scanner for Android packages. This repository holds the terminal side of the service: the CLI, the MCP server for AI agents, and future plugins (browser, IDE, marketplaces).
 
-[Website](https://apksonar.com) · [Live demo scans](https://apksonar.com/en/demos) · [REST API](https://apksonar.com/en/api) · [Plans](https://apksonar.com/en#pricing)
+[Website](https://apksonar.com) · [npm package](https://www.npmjs.com/package/apksonar) · [Live demo scans](https://apksonar.com/en/demos) · [REST API](https://apksonar.com/en/api) · [Plans](https://apksonar.com/en#pricing)
 
-Both tools ship as one zero-dependency npm package (Node 18+):
+Both tools ship as one zero-dependency npm package (Node 18+), published as [`apksonar` on npm](https://www.npmjs.com/package/apksonar):
 
 ```
 npx apksonar scan app.apk          # CLI
